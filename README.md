@@ -12,11 +12,11 @@ Build the most creative identity function possible. The goal is simple: take a n
 - Must return the exact same number that was input
 - Must use as many unnecessary transformations as possible
 
-## The Art of Over-Engineering
+## Why?
 
-This project is a celebration of unnecessary complexity. Each module takes a simple task and transforms it into a journey through different data types and mathematical operations, all while maintaining the fundamental property of returning exactly what was given.
+Because being useful is overrated :)
 
-The beauty lies not in the result (which is, by definition, identical to the input), but in the creative and convoluted path we take to get there.
+Inspired by [The Art of Code](https://www.youtube.com/watch?v=6avJHaC3C2U).
 
 ## Contributing
 

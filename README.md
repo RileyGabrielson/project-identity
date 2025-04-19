@@ -17,3 +17,31 @@ Build the most unnecessarily complex identity function possible. The goal is sim
 This project is a celebration of unnecessary complexity. Each module takes a simple task and transforms it into a journey through different data types and mathematical operations, all while maintaining the fundamental property of returning exactly what was given.
 
 The beauty lies not in the result (which is, by definition, identical to the input), but in the creative and convoluted path we take to get there.
+
+## Contributing
+
+1. Create a new module in the `modules` folder:
+   ```go
+   // modules/yourmodule/yourmodule.go
+   package yourmodule
+
+   func Identity(num int) int {
+       // Your unnecessarily complex code here
+       return num
+   }
+   ```
+
+2. Add your module to the identity chain in `main.go`:
+   ```go
+   func Identity(num int) int {
+       // ...
+       result = yourmodule.Identity(result) // Add your module here
+       return result
+   }
+   ```
+
+3. Keep your module self-contained
+
+4. Test your changes:
+   - Run `go test -v` to ensure your module maintains the identity property
+   - Add new test cases if your module has specific edge cases

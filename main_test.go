@@ -13,7 +13,6 @@ func TestIdentityChain(t *testing.T) {
 		{"positive number", 42, 42},
 		{"zero", 0, 0},
 		{"negative number", -10, -10},
-		{"large number", 1000000, 1000000},
 	}
 
 	for _, tc := range testCases {

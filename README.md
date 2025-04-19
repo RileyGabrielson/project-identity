@@ -1,10 +1,10 @@
 # Project Identity
 
-A masterpiece of over-engineering, a symphony of type conversions, and a testament to the art of doing things the hard way.
+A masterpiece of over-engineering, and a testament to the art of doing things the hard way.
 
 ## The Challenge
 
-Build the most unnecessarily complex identity function possible. The goal is simple: take a number and return the exact same number.
+Build the most creative identity function possible. The goal is simple: take a number and return the exact same number.
 
 ## Constraints
 

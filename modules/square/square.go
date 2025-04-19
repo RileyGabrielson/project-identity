@@ -2,7 +2,6 @@ package square
 
 import "math"
 
-// Identity takes an integer, squares it, then takes the square root
 func Identity(num int) int {
 	// Store the original sign
 	sign := 1

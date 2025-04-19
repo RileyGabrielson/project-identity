@@ -16,8 +16,6 @@ func Identity(num int) int {
 	for i := 0; i < 64; i++ {
 		bits[i] = (intFromFloat & (1 << i)) != 0
 	}
-	
-	// Convert boolean array back to integer
 	var result int
 	for i, bit := range bits {
 		if bit {

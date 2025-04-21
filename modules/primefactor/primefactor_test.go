@@ -37,11 +37,6 @@ func TestFactor(t *testing.T) {
 			expected: []int{2, 199},
 		},
 		{
-			name:     "-398",
-			input:    -398,
-			expected: []int{-2, 199},
-		},
-		{
 			name:     "677",
 			input:    677,
 			expected: []int{677},

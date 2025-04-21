@@ -6,7 +6,7 @@ A large, unnecessary identity function written in go.
 
 ## Why?
 
-Because it's fun to do something unecessary in a creative way :) You've written enough code that is "useful".
+Because it's fun to do something unecessary in a creative way :) You have probably written enough code that was supposed to be "useful".
 
 Inspired by [The Art of Code](https://www.youtube.com/watch?v=6avJHaC3C2U).
 
@@ -16,14 +16,20 @@ Inspired by [The Art of Code](https://www.youtube.com/watch?v=6avJHaC3C2U).
 
 ## Contributing
 
+### Guidelines
+
+- *Experience is not required*. PR's are welcome from anyone, no matter your experience.
+- *Try to be readable*. The high level goal here is to make code that is interesting to read (cause it probably won't be that interesting to execute)
+
+### Getting Started
+
 1. Create a new module in the `modules` folder:
    ```go
    // modules/yourmodule/yourmodule.go
    package yourmodule
 
    func Identity(num int) int {
-       // Your unnecessarily complex code here
-       return num
+       // ... do a kickflip
    }
    ```
 

@@ -2,23 +2,17 @@
 
 # The Identity
 
-A masterpiece of over-engineering, and a testament to the art of doing things the hard way.
+A large, unnecessary identity function written in go.
 
-## The Challenge
+## Why?
 
-Build the most creative identity function possible. The goal is simple: take a number and return the exact same number.
+Because it's fun to do something unecessary in a creative way :) You've written enough code that is "useful".
+
+Inspired by [The Art of Code](https://www.youtube.com/watch?v=6avJHaC3C2U).
 
 ## Constraints
 
 - Input range: -1000 to 1000 (inclusive)
-- Must return the exact same number that was input
-- Must use as many unnecessary transformations as possible
-
-## Why?
-
-Because being useful is overrated :)
-
-Inspired by [The Art of Code](https://www.youtube.com/watch?v=6avJHaC3C2U).
 
 ## Contributing
 

@@ -3,6 +3,7 @@ package main
 import (
 	"project-identity/modules/bigmap"
 	"project-identity/modules/casting"
+	"project-identity/modules/primefactor"
 	"project-identity/modules/square"
 	"project-identity/modules/subcipher"
 )
@@ -12,5 +13,6 @@ func Identity(num int) int {
 	result = casting.Identity(result)
 	result = subcipher.Identity(result)
 	result = bigmap.Identity(result)
+	result = primefactor.Identity(result)
 	return result
 }

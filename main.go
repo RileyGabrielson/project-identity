@@ -8,6 +8,7 @@ import (
 	"project-identity/modules/square"
 	"project-identity/modules/subcipher"
 	"project-identity/modules/ternary"
+	"project-identity/modules/trig"
 )
 
 func Identity(num int) int {
@@ -18,5 +19,6 @@ func Identity(num int) int {
 	result = primefactor.Identity(result)
 	result = ternary.Identity(result)
 	result = random.Identity(result)
+	result = trig.Identity(result)
 	return result
 }

@@ -4,6 +4,7 @@ import (
 	"project-identity/modules/bigmap"
 	"project-identity/modules/casting"
 	"project-identity/modules/primefactor"
+	"project-identity/modules/random"
 	"project-identity/modules/square"
 	"project-identity/modules/subcipher"
 	"project-identity/modules/ternary"
@@ -16,5 +17,6 @@ func Identity(num int) int {
 	result = bigmap.Identity(result)
 	result = primefactor.Identity(result)
 	result = ternary.Identity(result)
+	result = random.Identity(result)
 	return result
 }

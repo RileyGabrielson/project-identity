@@ -6,6 +6,7 @@ import (
 	"project-identity/modules/primefactor"
 	"project-identity/modules/square"
 	"project-identity/modules/subcipher"
+	"project-identity/modules/ternary"
 )
 
 func Identity(num int) int {
@@ -14,5 +15,6 @@ func Identity(num int) int {
 	result = subcipher.Identity(result)
 	result = bigmap.Identity(result)
 	result = primefactor.Identity(result)
+	result = ternary.Identity(result)
 	return result
 }
